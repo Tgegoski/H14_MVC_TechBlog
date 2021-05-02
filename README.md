@@ -55,3 +55,4 @@ THEN I am automatically signed out of the site
 The following video demonstrates the application functionality:
 
 Click on the link below to visit my GitHub page:
+https://github.com/Tgegoski/H14_MVC_TechBlog.git
