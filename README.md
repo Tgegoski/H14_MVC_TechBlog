@@ -6,53 +6,41 @@ Your task this week is to build a CMS-style blog site similar to a Wordpress sit
 
 ## User Story
 
-```md
-AS A developer who writes about tech
+As A developer who writes about tech
 I WANT a CMS-style blog site
 SO THAT I can publish articles, blog posts, and my thoughts and opinions
-```
 
-## Acceptance Criteria
+## Motivation
 
-```md
-GIVEN a CMS-style blog site
-WHEN I visit the site for the first time
-THEN I am presented with the homepage, which includes existing blog posts if any have been posted; navigation links for the homepage and the dashboard; and the option to log in
-WHEN I click on the homepage option
-THEN I am taken to the homepage
-WHEN I click on any other links in the navigation
-THEN I am prompted to either sign up or sign in
-WHEN I choose to sign up
-THEN I am prompted to create a username and password
-WHEN I click on the sign-up button
-THEN my user credentials are saved and I am logged into the site
-WHEN I revisit the site at a later time and choose to sign in
-THEN I am prompted to enter my username and password
-WHEN I am signed in to the site
-THEN I see navigation links for the homepage, the dashboard, and the option to log out
-WHEN I click on the homepage option in the navigation
-THEN I am taken to the homepage and presented with existing blog posts that include the post title and the date created
-WHEN I click on an existing blog post
-THEN I am presented with the post title, contents, post creator’s username, and date created for that post and have the option to leave a comment
-WHEN I enter a comment and click on the submit button while signed in
-THEN the comment is saved and the post is updated to display the comment, the comment creator’s username, and the date created
-WHEN I click on the dashboard option in the navigation
-THEN I am taken to the dashboard and presented with any blog posts I have already created and the option to add a new blog post
-WHEN I click on the button to add a new blog post
-THEN I am prompted to enter both a title and contents for my blog post
-WHEN I click on the button to create a new blog post
-THEN the title and contents of my post are saved and I am taken back to an updated dashboard with my new blog post
-WHEN I click on one of my existing posts in the dashboard
-THEN I am able to delete or update my post and taken back to an updated dashboard
-WHEN I click on the logout option in the navigation
-THEN I am signed out of the site
-WHEN I am idle on the page for more than a set time
-THEN I am automatically signed out of the site
-```
+The motivation for this project was to have a place for developers to go to post blogs about tech subjects. It is also a place where developers can go to view blogs on various tech subjects. Developers can also make comments on other people's blog posts. This Tech Blog allows users to create their own dashboard where they can post blogs about various subjects.
 
-## Mock-Up
+## Features
 
-The following video demonstrates the application functionality:
+- CMS-style blog site.
+- Homepage with options to view existing blog posts; links to the dashboard and the option to login.
+- Homepage option takes the user to the homepage.
+- Clicking on any other links will prompt the user to either sign up or sign in.
+- If the user chooses sign up then they are prompted to create a username and password.
+- When the user clicks on sign up their credentials are saved and they are logged into the site.
+- When the user revisits the site and signs in they are taken to the homepage.
+- On the homepage they are presented with existing blogs posts that include the post title and date created.
+- When the user views an existing blog post they are presented with the post title, contents, username, and date created.
+- When the user clicks on the dashboard option they are presented with any blog posts they have already created and the option to create a new blog post.
+- The button to add a new blog post prompts the user to enter both a title and contents for the blog post.
+- When the user clicks the button to create new blog post then the title and contents are saved and they are returned to their dashboard with their new blog post.
+- When the user clicks on an existing blog post then they are able to delete or update any post and then taken back to their dashboard.
+- The user can then click on the logout option to be signed out of the site.
+
+## Technologies Used
+
+-Node.js, Express.js, MySQL, Sequelize, dotenv, bcrypt and handlebars.
+
+Click on the link below to view the application on Heroku:
+https://dry-plateau-22934.herokuapp.com/
 
 Click on the link below to visit my GitHub page:
 https://github.com/Tgegoski/H14_MVC_TechBlog.git
+
+```
+
+```
