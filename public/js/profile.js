@@ -2,20 +2,19 @@ const newFormHandler = async (event) => {
   event.preventDefault();
 
   const name = document.querySelector("#blog-name").value.trim();
-  const blog_post = document.querySelector("#blog-post").value.trim();
   const description = document.querySelector("#blog-desc").value.trim();
 
-  if (name && needed_funding && description) {
-    const response = await fetch(`/api/blogs`, {
+  if (name && description) {
+    const response = await fetch(`/api/blog`, {
       method: "POST",
-      body: JSON.stringify({ name, blog_post, description }),
+      body: JSON.stringify({ name, description }),
       headers: {
         "Content-Type": "application/json",
       },
     });
 
     if (response.ok) {
-      document.location.replace("/blog");
+      document.location.reload();
     } else {
       alert("Failed to create blog");
     }
